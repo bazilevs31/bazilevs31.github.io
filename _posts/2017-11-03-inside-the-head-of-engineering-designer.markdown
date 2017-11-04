@@ -37,6 +37,9 @@ He has gone to China to work 120 hours weeks to develop a prototype for his wate
 Right now, Kevin is a co-founder and CEO of a start-up that is revolutionizing the way athletes track their fitness and performance. He also runs a product design firm that tackles a wide range of problems, from food packaging to medical devices.
 
 
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=b8oMwB4JdOQ&t=17s" frameborder="0" allowfullscreen></iframe>
+
+
 ## Here are the top 6 rules of design by Kevin Reilly:
 
 1) Always, always think about the problem you are trying to solve!
