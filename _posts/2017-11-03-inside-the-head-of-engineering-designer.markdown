@@ -4,7 +4,7 @@ title:      "Inside the head of Engineering Designer"
 subtitle:   "What have I learned from a story of a lost Ph.D. Student and genius Engineering Designer?"
 date:       2017-11-03
 author:     "Start Bootstrap"
-header-img: "img/lang/lang_blackboard.jpg"
+header-img: "img/eng/auto_gears.jpg"
 ---
 
 
