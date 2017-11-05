@@ -42,7 +42,9 @@ For example - “α" - is easy, it looks like English “a”. No need to rememb
 
 3) Mark the English equivalents of the letters with another color (orange for example).  Use the table of frequencies to help you select most used characters.
 
-![Full Greek alphabet statistics]({{ "/img/lang/long_alphabet.png" | absolute_url }})
+![Full Greek alphabet statistics]({{ "img/lang/long_alphabet.png" | absolute_url }})
+
+<img src="{{ site.url }}{{ site.baseurl }}//img/lang/long_alphabet.png" alt="">
 
 
 

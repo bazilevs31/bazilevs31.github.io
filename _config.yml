@@ -6,10 +6,10 @@ copyright_name: Vasilii Triandafilidi personal blog
 description: "Personal blog on learning and entrepreneurship"
 # baseurl: "/startbootstrap-clean-blog-jekyll"
 url: "http://bazilevs31.github.io"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  StartBootstrap
-email_username:  your-email@yourdomain.com
+twitter_username:
+github_username:  bazilevs31
+facebook_username:
+email_username:  vasiliy.triandafilidi@gmail.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
