@@ -86,25 +86,22 @@ empty_file2
 If we want to rename file, we could copy it and consequently remove it,
 or use a move mv `file1` `file2` command which combines this procedures.
 
-Must-know commands
-------------------
+__Must-know commands:__
 
   -----------------------------------------------------------------
   So here is a little cheat sheet of required operations:
 
-  1\. LiSt files and folders ls
+  1\. LiSt files and folders `ls`
 
-  2\. Current directory pwd
+  2\. Current directory `pwd`
 
-  3\. Navigate to directory(ChangeDirectory) cd foldername, cd ..
+  3\. Navigate to directory(Change Directory) `cd foldername`, `cd ..`
 
   4\. CoPy/MoVe/ReMove files `cp file1 file2`, `mv file1 file2`,
   `rm file1`.
 
-  A Project
 
-  =========
-  -----------------------------------------------------------------
+## Project
 
 __Problem:__
 
