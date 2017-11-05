@@ -44,7 +44,6 @@ For example - “α" - is easy, it looks like English “a”. No need to rememb
 
 ![Full Greek alphabet statistics]({{ "img/lang/long_alphabet.png" | absolute_url }})
 
-<img src="{{ site.url }}{{ site.baseurl }}//img/lang/long_alphabet.png" alt="">
 
 
 
