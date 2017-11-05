@@ -38,11 +38,11 @@ Note, from my experience - you DON’T need to remember that you read α - as �
 2) Find the letters that you wouldn’t know how to read. Circle them out.
 For example - “α" - is easy, it looks like English “a”. No need to remember it.
 
-![My helpful screenshot]({{ "/img/lang/alphabet_statistics.png" | absolute_url }})
+![Greek alphabet statistics]({{ "/img/lang/alphabet_statistics.png" | absolute_url }})
 
 3) Mark the English equivalents of the letters with another color (orange for example).  Use the table of frequencies to help you select most used characters.
 
-![My helpful screenshot]({{ "/img/lang/long_alphabet.png" | absolute_url }})
+![Full Greek alphabet statistics]({{ "/img/lang/long_alphabet.png" | absolute_url }})
 
 
 
