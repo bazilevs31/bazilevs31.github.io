@@ -4,6 +4,7 @@ date: '2015-04-05 16:31'
 title: 'How to equilibrate a polymer melt?'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+tags: research polymer simulation Molecular-Dynamics
 ---
 
 ## How to equilibrate a polymer melt?
@@ -23,9 +24,9 @@ and the internal rotations are completely free [equilibrating]\_
 
 Polymer configuration can be described by setting up the positions of
 each monomer: for example \$3N\$ Cartesian coordinates \$XYZ\$ with
-respect to the laboratory fixed frame. Since all of the configurations
+Respect to the laboratory-fixed frame. Since all of the configurations
 are random, the end-to-end vector, connecting the first and the last
-units of a chain, should have a zero average [average]\_ and a certain
+units of a chain should have a zero average [average]\_ and a certain
 variance.
 
 \$\$\\mathbf{R}(N)=\\sum\_{i=1}\^{i=N}\\mathbf{r}\_i\$\$
@@ -61,11 +62,10 @@ bridge to connect experimental results to MD.
 
 ![](../images/end_to_end_explained.png)
 
-FIG. [figPolymerParameters]\_ Schematic representation of a polymer
-chain. Two main characteristic values are shown: the end-to-end distance
+FIG. [figPolymerParameters]\_ Schematic representation of a polymer hain. Two central characteristic values are shown: the end-to-end distance
 which corresponds to the vector connecting the first and the last beads
 of the polymer, and the gyration radius which is a characteristic
-average size of the polymer chain.
+the average size of the polymer chain.
 
 In practice, chains are non-ideal, they interact and have internal
 stiffness. Moreover, since the number of beads \$N\$ is usually a large
@@ -88,8 +88,8 @@ Nb\^2\$, explained in [figMSID]\_.
 
 FIG. [figMSID]\_ Schematic representation of evolution of Mean Square
 Internal Distances (MSID) for equilibrated and non-equilibrated polymer
-melts. Upon equilibration chain MSID saturates on correct End-to-End
-distances that can be directly obtained from number of units in the
+Melts. Upon equilibration chain, MSID saturates on correct End-to-End
+distances that can be directly obtained from the number of units in the
 chain, bond length and chain stiffness
 
 Theoretical aspects of polymer melt equilibration in MD
@@ -104,34 +104,33 @@ the long chain high-temperature polymer melt. Therefore, one needs to
 start with a configuration that closely resembles an equilibrated,
 disordered and amorphous system. This can be achieved using a
 Monte-Carlo algorithm that will efficiently decorrelate an artificial
-configuration so as to let it acquire equilibrium properties. For
+configuration to let it acquire equilibrium properties. For
 instance, in the present work melts were created using self-avoiding
-random walk via a chain.f tool provided by the LAMMPS Molecular Dynamics
+Random walk via a chain.f tool provided by the LAMMPS Molecular Dynamics
 Simulator ([lammps]\_) package.
 
 After initial configurations are created, polymer chains need to be
 equilibrated. Unlike short molecules, long chain polymers require both
 thermodynamic and configurational equilibration. Configurational
 equilibration can be achieved when the Mean Square Internal Distance
-(\$MSID\$) parameter is equilibrated and correspond to pseudo-Gaussian
+(\$MSID\$) the parameter is equilibrated and correspond to pseudo-Gaussian
 chain, see FIG.[figmsid]\_. This was done via Kremer-Grest equilibration
 process 7 using bead-springs polymer representation ([sliozberg]\_ )The
-method used for configurational equilibration is a fast ’Dpd-push-off’ -
-it is a commonly used way to prepare well-equilibrated melts. This
+the method used for configurational equilibration is a fast ’Dpd-push-off’ -
+It is a commonly used way to prepare well-equilibrated melts. This
 method is an extension of the slow push-off method developed by Auhl et
 al. ([auhl]\_). The idea of application of soft repulsive potentials for
 equilibration of polymer melts is effective provided the potential is
 applied to the initial configurations that closely match equilibrium
 structures at large length scales. The details and the practical aspects
 of the algorithm will be discussed below. The MSID plots, alongside
-plots of the thermodynamic parameters evolution provide evidence on a
+plots of the thermodynamic parameters evolution, provide evidence on a
 fine quality of equilibration achieved using the procedure explained
 above.
 
 ![](../images/output_20_1.png)
 
-Mean Square Internal Distance Plot (\$MSID\$). The plot indicates well
-equilibrated character of polymer melt. Linear growth at the initial
+Mean Square Internal Distance Plot (\$MSID\$). The plot indicates the well-equilibrated character of the polymer melt. Linear growth at the initial
 stages is followed by saturation on the
 
 Practical aspects of polymer equilibration
@@ -139,8 +138,8 @@ Practical aspects of polymer equilibration
 
 We have already discussed the theoretical aspects of polymer
 equilibration. We emphasized the importance of creating decorrelated
-initial configurtions and tracking the evolution of MSID parameter as a
-gauge of equilibration. In this subsection we will discussed the
+initial configurations and tracking the evolution of MSID parameter as a
+gauge of equilibration. In this subsection, we will discuss the
 practical aspects of polymer equilibration.
 
 Now it's time to "make hands dirty" and cover the steps and code used
@@ -178,7 +177,7 @@ pair_coeff * * 25 4.5 1.0
 
 velocity all create 1.0 17786140
 
-# bonds in init.data are unphysicaly close
+# bonds in init.data are unphysically close
 # fix nve/limit doesn't let the system to explode
 # during the equilibration run
 
@@ -222,8 +221,7 @@ write_data equil.data
 
 The init.data that was created using self-avoiding random walk and
 imported at the beginning of the script above didn't have any angle
-sections. But the actual simulation that we will run will need this
-parameters. So here I present a short SED/AWK script to update the data
+sections. But the actual simulation that we will run will need this parameter. So here I present a short SED/AWK script to update the data
 file. Interested read may find a good Introductory tutorial on
 <https://quickleft.com/blog/command-line-tutorials-sed-awk/>.
 

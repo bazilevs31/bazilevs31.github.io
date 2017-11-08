@@ -4,99 +4,35 @@ date: '2015-04-05 16:31'
 title: 'Why do I write this blog?'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+tags: personal research
 ---
 
+## About me and my blog
 
-About me
---------
+Hi, my name is Vasilii Triandafilidi
+<a href="https://www.grad.ubc.ca/campus-community/meet-our-students/triandafilidi-vasilii">. I am a third year Ph.D. student at
+the University of British Columbia. I work under the supervision of Prof. Savvas Hatzikiriakos, Prof. Joerg Rottler, and Prof. John Madden.
+In the past, I had a pleasure working in the Prof. Norman's group
+under the supervision of Dr. Stegailov from Russian Academy of Science.
 
---
+In my research, I focus on investigating properties of matter using Method of Molecular Dynamics. Molecular Dynamics
+computational tool that treats the material as a system of interacting particles.
 
-Hi, my name is Vasilii Triandafilidi. I am a first year PhD student at
-the University of British Columbia. I work under supervision of Prof.
-Savvas Hatzikiriakos' lab [lab]\_ and Prof. Rottler [Prof\_Rottler]\_ .
-In the past I had a pleasure working in the Prof. Norman's group
-[Prof\_Norman]\_ under supervision of Dr. Stegailov.
+## So why do I write this blog?
 
-In my research I focus on investigating properties of matter using
-Method of Molecular Dynamics. Molecular Dynamics [md]\_ is a
-computational tool that treats matter as a system of interacting
-particles.
+I write this blog mostly because I want to keep track of the things that I encounter in my everyday life of a graduate student. I also believe in an open-source and reproducible science. I am very much against inventing bicycles over and over again. The best way to avoid it is to share, to talk and to collaborate with as many people as you can.
+Remember, science isn't a zero-sum game - together we can build substantial synergies an capitalize on them.
 
-![](../images/md_explained.png)
+In this blog besides personal learning, I will cover several topics:
 
-Schematic representation of Molecular Dynamics flow
+* Research on polymers, polyelectrolyte gels, and sensors
+* Computer simulation tools (in particular Molecular Dynamics)
+* Python/Bash programming
+* Mac OS X/ Linux based systems
 
-In order to run a Molecular Dynamics Simulation one needs to provide the
-initial atomic positions \$\\mathbf{r\_1},\\mathbf{r\_2} ...
-\\mathbf{r\_N}\$, the inter-atomic potential \$U(\\mathbf{r})\$ and a
-set of constraints also known as an ensemble for integrating the
-equations of motion. Then using this information of the atomic
-positions, and interacting potential; the Newtons equations of motion
-are used to calculate the atomic positions on the next time step. After
-simulation is terminated one obtains the final positions
-\$\\mathbf{r\^{'}\_1},\\mathbf{r\^{'}\_2} ...\\mathbf{r\^{'}\_N}\$. The
-macroscopic parameters can be calculated by integrating and averaging,
-e.g temperature can be calculated as a mean square kinetic energy, i.e
-velocity of the system.
-
-In particular I am very interested in investigating the process of
-polymer crystallization.
-
-![](../images/spagetti.png)
-
-> width
->
-> :   300pt
->
-> align
->
-> :   center
->
-Spaghetti representation of polymer chains
-
-![](../images/bidisp_equal1.png)
-
-Bundle like crystallite upon bidisperse polymer crystallization. Short
-chains are colored in red, long chains in green
-
-Tools:
-------
-
-To do Molecular Dynamics simulation I use open source code [lammps]\_ ,
-to analyze trajectories I use a powerful Python based package
-[mdanalysis]\_ , to vizualize my results I use [vmd]\_ .
-
-So why do I write this blog?
-----------------------------
-
---
-
-I write this blog mostly because I want to keep track of my progress. I
-do also believe in an open-source and reproducible science. I am very
-against inventing bicycles over and over again. The best way to avoid it
-is to share, to talk to people and hear their feedback.
-
-I chose Python language because of its open-source nature and great
-package infrastructure. If you have a cool program you load it, and
-other person can install it as easy as
-
-``` {.sourceCode .bash}
-pip install packagename
-```
-
-I think scientific community (especially those who work in simulation)
-have to learn a lot from this approach. Those who got interested in
-open-source science may address a great project by Mozilla
-[mozillascience]\_. Besides,Python is a beautiful and powerful language.
-The range of its capabilities varies from building a static blog
-[pelican]\_ to solving a numerical equations. If you haven't used it
-yet, I think, you should give it a try.
-
-I spend a lot of time working on my project and I hope the stuff that I
-am doing maybe useful for other people as well.
+I hope reading this blog would be beneficial to you. You can say thank you by commenting on this blog or by starting your own blog. I will provide instructions on how to set it up later on.
 
 Contact information:
 --------------------
-
 email: vasiliy(dot)triandafilidi( at )gmail.com
+

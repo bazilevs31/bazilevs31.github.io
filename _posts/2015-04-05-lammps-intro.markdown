@@ -4,6 +4,7 @@ date: '2015-04-05 16:31'
 title: 'How to run a simples simulation in Lammps?'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+tags: research polymer simulation Molecular-Dynamics Lammps
 ---
 
 :   How to run a simples simulation in Lammps

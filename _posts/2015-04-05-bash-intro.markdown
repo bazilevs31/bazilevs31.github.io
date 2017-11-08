@@ -4,11 +4,12 @@ date: '2015-04-05 16:31'
 title: 'How to work with bash terminal or introduction to hacking'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+tags: research terminal Linux programming bash
 ---
 
 ## How to work in Unix Bash?
 
-  Imagine you have 10 files with two columns of data in each file. You want to load them and take an average of all second columns. Sounds like an easy Excell program. But it is not. When you have not 10 but 10 000 files, it will take ages for Excell to load them, also Excell is not free and is not installed everywhere. Fortunatelly there is an amazing tool that you may use : Bash shell. It is available by default in Linux/Mac OS , it can be installed via CygWin on Windows machine. It takes a couple of hours to learn, couple of days/weeks to master, and it will save you couple of years in future. Interested? So lets get started.
+  Imagine you have 10 files with two columns of data in each file. You want to load them and take an average of all second columns. Sounds like an easy Excell program! But it is not! When you have not 10 but 10 000 files, it will take ages for Excell to load them. Also, Excell is not free and is not installed everywhere. Fortunately, there is a fantastic tool that you may use: Bash shell. It is available by default in Linux/Mac OS, it can be installed via Cygwin on Windows machine. It takes a couple of hours to learn, a couple of days/weeks to master, and it will save you couple of years in future. Interested? So let's get started.
 
   __Plan:__
 
@@ -16,16 +17,16 @@ header-img: "img/prog/coding.jpg"
   * Elementary operations
   * Secrets of mastering bash
   * Useful links
-  * Here is how the linux console looks on Ubuntu 14.04
+  * Here is how the Linux console looks on Ubuntu 14.04
 
 ## Elementary Introduction
 
 
-In a nutshell we see computer memmory as a bunch of files and folders.
-When we use computer in our daily routine we navigate between different
-files and folders. Even when we surf the web we navigate between
-webpages which are the files on remote servers. So the most “intersting”
-command would be ls
+In a nutshell, we see computer memory as a bunch of files and folders.
+When we use a computer in our daily routine, we navigate between different
+files and folders. Even when we surf the web, we navigate between
+webpages which are the files on remote servers. So the most “interesting”
+the command would be ls
 
 1.  List all files and folders
 
@@ -39,7 +40,7 @@ Here empty_folder1 is a directory, and empty_file1 is a text file.
 
 ```bash
 $ cd empty_folder1
-Now we are in empty_folder1 directory. To test that we use
+Now we are in the empty_folder1 directory. To test that we use
 ```
 
 3.  Show current directory
@@ -49,8 +50,8 @@ $ pwd
 /home/vasiliy/tests
 ```
 
-To navigate back in the parent directory we use cd .. Now lets use this
-4 commands together
+To navigate back to the parent directory we use cd. Now let's use this
+four commands together
 
 ```bash
 vasiliy@vasiliy-office:~/tests/empty_folder1$ pwd
@@ -63,10 +64,10 @@ empty_file1  empty_folder1
 vasiliy@vasiliy-office:~/tests$ cd empty_folder1/
 ```
 
-To create a file we may use any text editor we like. I myself am a big
-fan of Sublime-Text.. To copy file `file1` to `file2` we use cp `file1`
-`file2` command. To remove files we use rm filename command. To create
-an empty directory we use mkdir mynewcooldirectory.
+To create a file, we may use any text editor we like. I myself am a big
+fan of Sublime-Text. To copy file `file1` to `file2` we use cp `file1`
+`file2` command. To remove files, we use rm filename command. To create
+an empty directory we use `mkdir mynewcooldirectory`.
 
 4.  Creating/Copying/Removing files
 
@@ -84,7 +85,7 @@ empty_file2
 ```
 
 If we want to rename file, we could copy it and consequently remove it,
-or use a move mv `file1` `file2` command which combines this procedures.
+or use a move mv `file1` `file2` command which combines these procedure.
 
 __Must-know commands:__
 
@@ -105,7 +106,7 @@ __Must-know commands:__
 
 __Problem:__
 
-Create a binary bash script(a file that can be executed by linux shell)
+Create a binary bash script(a file that can be executed by Linux shell)
 that:
 
 1.  lists all files in the directory
@@ -119,14 +120,14 @@ Additional information:
 The files on computer are of two types human-readable - ASCII, and
 computer readable - binary. We (humans:)) can’t understand computer code
 because it is all 1s and 0s, at the same time computers can’t understand
-ASCII files unless we explain them how to transfer ASCII files into
-binary ones. To simplify the procedure of running the program we can
+ASCII files unless we explain to them how to transfer ASCII files into
+binary ones. To simplify the procedure of running the program, we can
 tell our system that this program is a bash program this is being done
-by : `#!/bin/bash`. Then tell the system that we may run this as an
-executable we do `chmod +x bashscript.sh` To create dummy empty file one
-may use touch `file1` command. To delete all files in the directory we
+by: `#!/bin/bash`. Then tell the system that we may run this as an
+executable we do `chmod +x bash script.sh` To create dummy empty file one
+may use touch `file1` command. To delete all files in the directory, we
 use `*` wildcard so to delete all files it will be `rm *.` But we need
-to be very careful because it will delete all files in directory, so
+to be very careful because it will delete all files in the directory, so
 make sure that they match the pattern that you are using to delete
 files.
 
