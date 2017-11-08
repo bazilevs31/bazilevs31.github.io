@@ -10,9 +10,7 @@ header-img: "img/lang/lang_blackboard.jpg"
 
 ## How to learn to read in foreign alphabet in 30 minutes?
 
-Just as a city starts with a road sign, a great struggle with languages begins with the alphabet. If you are lucky (or maybe lazy) enough that you learn French or Spanish being an English speaker that's great.
-
-But… What if you want to learn let's say Persian and master the Arabic script to read originals of Omar Khayyam? Life is not that fabulous all of a sudden, isn’t it?
+Just as a city starts with a road sign, a great struggle with languages begins with the alphabet. If you are lucky enough that you learn French or Spanish being an English speaker that's great. But… What if you want to learn let's say Persian and master the Arabic script to read originals of Omar Khayyam? Life is not that fabulous all of a sudden, isn’t it?
 You enter a catch-22 now. To become good in something - you need to be able to read. To read - you need to be skilled at reading. Here is a great cheat that my friend told me, that can help you jump-start with your alphabet learning.
 
 Don’t worry here is a cheat method to learn a new alphabet in 30(!) minutes. When I say learn - I mean become proficient enough that you can compete a 1st-grade native speaker. In just half an hour!!!
