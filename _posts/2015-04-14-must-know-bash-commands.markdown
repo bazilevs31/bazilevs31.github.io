@@ -4,6 +4,7 @@ date: "2015-04-14"
 title: "Must know bash commands or hackers cheat sheet"
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+tags: programming bash Linux terminal
 ---
 
 ## What are the must know Bash commands?What are tricky bash commands that I consider useful:
@@ -13,7 +14,7 @@ Basic ls, rm, grep commands
 
 ```bash
 ls file # does the file exist?
-ls -l file # info about file
+ls -l file # info about the file
 ls -lt  #  list files in time order with info
 ls -ltr  #  list files in reverse time order with info
 ls -a # list files including hidden files
@@ -120,18 +121,18 @@ sed -e '/^$/d' $filename
 # Operates on the text contained in file $filename.
 
 
-8d  #Delete 8th line of input.
+8d  #Delete the 8th line of input.
 /^$/d   #Delete all blank lines.
-1,/^$/d #Delete from beginning of input up to, and including first blank line.
+1,/^$/d #Delete from beginning of input up to, and including the first blank line.
 
 /Jones/p  #  Print only lines containing "Jones" (with -n option).
-s/Windows/Linux/   # Substitute "Linux" for first instance of "Windows" found in each input line.
+s/Windows/Linux/   # Substitute "Linux" for the first instance of "Windows" found in each input line.
 s/BSOD/stability/g  #Substitute "stability" for every instance of "BSOD" found in each input line.
 
 s/ \*$// #Delete all spaces at the end of every line.
 s/00\*/0/g   #Compress all consecutive sequences of zeroes into a single zero.
 
-echo "Working on it." | sed -e '1i How far are you along?'  #Prints "How far are you along?" as first line, "Working on it" as second.
+echo "Working on it." | sed -e '1i How far are you along?'  #Prints "How far are you along?" as the first line, "Working on it" as second.
 5i 'Linux is great.' file.txt   #Inserts 'Linux is great.' at line 5 of the file file.txt.
 /GUI/d  #Delete all lines containing "GUI".
 s/GUI//g    #Delete all instances of "GUI", leaving the remainder of each line intact.
@@ -141,12 +142,12 @@ Aliasing
 --------
 
 The alias command makes it possible to launch any command or group of
-commands (inclusive of any options, arguments and redirection) by
-entering a pre-set string (i.e., sequence of characters). In other words
-you find some command that you use a lot, say go to certain directory,
+commands (inclusive of any options, arguments, and redirection) by
+entering a pre-set string (i.e., the sequence of characters). In other words
+you find some command that you use a lot, say go to specified directory,
 or ssh to certain server give it a nickname (alias) and use it.
 
-For example I know that I go to certain folder a lot, it has all my
+For example, I know that I go to certain folder a lot, it has my all
 libraries in it -
 /Dropbox/Lammps\_simulation/my\_git\_repo/polymer\_simulation/CreateMelt
 So I just add the following line to \~/.bashrc (\~/bash\_profile),
@@ -219,11 +220,11 @@ extract () {
 Github basic commands:
 ----------------------
 
-I assume one does have a working account, then everything is pretty
+I assume one does have a working account; then everything is pretty
 straightforward:
 
 ```bash
-#initialize this directory to be github directory
+#initialize this directory to be GitHub directory
 git init .
 # when you have files to push
 git add .

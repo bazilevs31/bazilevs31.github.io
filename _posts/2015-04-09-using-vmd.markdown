@@ -4,6 +4,7 @@ date: '2015-04-08 16:31'
 title: 'You have run a simulation, now what? How to visualize your simulation results?'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+tags: research polymer visualization Molecular-Dynamics VMD
 ---
 
 
@@ -18,7 +19,7 @@ __Making Lammps to output trajectory files__
 
 In Lammps I use this command to produce trajectory files:
 
-``` {.sourceCode .perl}
+```perl
 dump            dump_traj all dcd 20000 traj.dcd
 dump_modify     dump_traj sort id unwrap yes
 write_data      traj.data
@@ -33,12 +34,9 @@ trajectory processing software packages such as [vmd]\_ and
 
 __Vizualizing your trajectory:__
 
-
-![image](./images/using_vmd/polymer_amor.png)
-
-![image](./images/using_vmd/polymer100.png)
-
-![image](./images/using_vmd/polymer_cryst.png)
+![Static Structure Factor]({{ "/img/res/polymer_amor.png" | absolute_url }})
+![Static Structure Factor]({{ "/img/res/polymer100.png" | absolute_url }})
+![Static Structure Factor]({{ "/img/res/polymer_cryst.png" | absolute_url }})
 
 To visualize your trajectory one needs to give VMD information about
 bonds in the system, by providing VMD with .psf files, i.e bond
@@ -60,6 +58,7 @@ animate read dcd traj.dcd
 I wrote a simple python script to produce .psf file out of data file.
 
 ```python
+
 #!/usr/bin/env python
 import os
 import argparse

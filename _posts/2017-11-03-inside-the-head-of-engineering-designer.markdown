@@ -30,9 +30,9 @@ But very few people think of the technological back-end design behind their devi
 
 As a kid, Kevin took apart anything he could get his hands on. It took a decade of experience in research, design, manufacturing, and a Ph.D. in engineering to teach him how to put everything back together. His love of pulling apart things and building creative solutions lead to him founding two start-ups to bring clean water to developing communities and disaster relief missions.
 
-I met him at our department's foosball table while staying late to work on my thesis. We started a conversation and a little game of foosball. He told me about a company that he had already founded while being a Ph.D. student. We had a great chat that night, but I haven't seen him after that.
+I met him at our department's foosball table while staying late to work on my thesis. We started a conversation and a little game of foosball. He told me about a company that he had already founded while being a Ph.D. student. We had a great chat that night, but I haven't seen him after that for a while.
 
-He has gone to China to work 120 hours weeks to develop a prototype for his water filter company. He had to go through 51 prototypes to reach the one that matters. After he had built his prototype, he had to leave China to go to Haiti with nothing except his clothes on his back and suitcases full of water filters to help to tackle the environmental catastrophe.
+At that time he had gone to China to work 120 hours weeks to develop a prototype for his water filter company. He had to go through 51 prototypes to reach the one that actually matters. After he had built his prototype, he  left China to go to Haiti with nothing except his clothes on his back and suitcases full of water filters to help to tackle the environmental catastrophe.
 
 Right now, Kevin is a co-founder and CEO of a start-up that is revolutionizing the way athletes track their fitness and performance. He also runs a product design firm that tackles a wide range of problems, from food packaging to medical devices.
 
@@ -62,6 +62,8 @@ Right now, Kevin is a co-founder and CEO of a start-up that is revolutionizing t
 > Voila! ... problem solved with minimum effort! By the way, for the
 > skeptics, often frozen products may have more nutrients than the
 > fresh ones.
+
+![Greek alphabet statistics]({{ "/img/eng/kevin_slide.png" | absolute_url }})
 
 2) Inside first, outside - second!
 

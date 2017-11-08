@@ -4,6 +4,7 @@ date: '2015-04-08 16:31'
 title: 'You have run a simulation, now what? How to analyze MD trajectories?'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+tags: research polymer simulation Molecular-Dynamics Lammps MDAnalysis
 ---
 
 You have run a simulation, now what? How to analyze MD trajectories?
@@ -199,5 +200,4 @@ def get_r2n(u,psffile,frame,Noff=1,logplot=False):
 
 get_r2n(u,"myfile",0,Noff=1,logplot=False)
 ```
-
-![image](./images/output_20_1.png)
+![Static Structure Factor]({{ "/img/res/output_20_1.png" | absolute_url }})
