@@ -20,7 +20,7 @@ Slowly my head clears up; nothing bothers me anymore, blue skies are in my head.
 
 I am almost done with my morning routine. It is time for the last thing.
 
-I go to the washroom, put my bucket into the bath and fill it in with the coldest water. I bring some ice from the kitchen just to make sure it is as chilled as it could get. I get into the bath and pour it over myself. My morning routine is complete.
+I go to the shower, put my bucket into the bath and fill it in with the coldest water. I bring some ice from the kitchen just to make sure it is as chilled as it could get. I get into the bath and pour it over myself. My morning routine is complete.
 
 I go to the kitchen, put some coffee in my stove espresso maker and put it on the stove. I heat up some milk, foam it with my little electric foamer and mix it up with my espresso. I get my favorite morning latte.
 
