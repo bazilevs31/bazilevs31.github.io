@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Coffee 101"
-subtitle:   "Kick-ass latte at home that is better than in a coffe shop"
+subtitle:   "Kick-ass latte at home that is better than in a coffee shop"
 date:       2017-11-07
 author:     "Vasilii Triandafilidi"
 header-img: "img/motiv/coffee.jpg"
