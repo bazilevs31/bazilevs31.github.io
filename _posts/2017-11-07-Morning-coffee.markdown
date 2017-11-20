@@ -28,6 +28,8 @@ __Step 1: Kick-ass Espresso__
 2. Put it into a Belletti stove espresso machine
 3. Wait until you get espresso.
 
+<img src="/Users/bazilevs/2017_Oct_Blog/bazilevs31.github.io/img/motiv/coffee/brewed_coffee.jpg" height="600px" />
+
 __Step 2: Heavenly Foam__
 
 1. Put $$30\  ml \sim 1\  oz$$ of milk in a cup
@@ -36,11 +38,17 @@ __Step 2: Heavenly Foam__
 
 PS> If you have some condensed milk put a tablespoon of it in the cup as well to make it heavenly
 
+<img src="/Users/bazilevs/2017_Oct_Blog/bazilevs31.github.io/img/motiv/coffee/milk.jpeg" height="600px" />
+
+![milk](/Users/bazilevs/2017_Oct_Blog/bazilevs31.github.io/img/motiv/coffee/milk.jpeg
+
 __Step 3: Mixing__
 
 1. Add some milk to your espresso (I don't like very acidic coffee, so I add a $$1\ oz$$ of milk)
 2. Add foam on top
 3. Enjoy!!!
+
+<img src="/Users/bazilevs/2017_Oct_Blog/bazilevs31.github.io/img/motiv/coffee/final_image.jpeg" height="600px" />
 
 ## London Fog
 
@@ -48,7 +56,7 @@ __Step 3: Mixing__
 __Step 1: Fantastic Earl Grey__
 
 1. Get Earl Grey tea in leaves
-1. Prepare a fresh, hot teapot of the tea
+2. Prepare a fresh, hot teapot of the tea
 
 __Step 2: Heavenly Foam__
 
