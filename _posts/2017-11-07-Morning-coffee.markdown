@@ -28,7 +28,7 @@ __Step 1: Kick-ass Espresso__
 2. Put it into a Belletti stove espresso machine
 3. Wait until you get espresso.
 
-<img src="/Users/bazilevs/2017_Oct_Blog/bazilevs31.github.io/img/motiv/coffee/brewed_coffee.jpg" height="600px" />
+<img src="/img/motiv/coffee/brewed_coffee.jpg" height="600px" />
 
 __Step 2: Heavenly Foam__
 
@@ -38,9 +38,7 @@ __Step 2: Heavenly Foam__
 
 PS> If you have some condensed milk put a tablespoon of it in the cup as well to make it heavenly
 
-<img src="/Users/bazilevs/2017_Oct_Blog/bazilevs31.github.io/img/motiv/coffee/milk.jpeg" height="600px" />
-
-![milk](/Users/bazilevs/2017_Oct_Blog/bazilevs31.github.io/img/motiv/coffee/milk.jpeg
+<img src="/img/motiv/coffee/milk.jpeg" height="600px" />
 
 __Step 3: Mixing__
 
@@ -48,7 +46,7 @@ __Step 3: Mixing__
 2. Add foam on top
 3. Enjoy!!!
 
-<img src="/Users/bazilevs/2017_Oct_Blog/bazilevs31.github.io/img/motiv/coffee/final_image.jpeg" height="600px" />
+<img src="/img/motiv/coffee/final_image.jpeg" height="600px" />
 
 ## London Fog
 
