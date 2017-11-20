@@ -21,7 +21,7 @@ Today I will talk to you about my morning beverages and how I make them. We will
 * London Fog
 * Making a heavenly foam with mixture of milk and condensed milk
 
-It takes me usually only 4 minutes to make two cups in the morning. I hope it can make your mornings better as well ☕️👏
+Usually, it takes me  only 4 minutes to make two cups in the morning. I hope it can make your mornings better as well ☕️👏
 
 ## Latte
 
