@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Coffee 101"
+title:      "Coffee 101. Fast. Tasty. Home-made."
 subtitle:   "Kick-ass latte at home that is better than in a coffee shop"
 date:       2017-11-07
 author:     "Vasilii Triandafilidi"
@@ -20,6 +20,8 @@ Today I will talk to you about my morning beverages and how I make them. We will
 * Perfect morning latte with foam
 * London Fog
 * Making a heavenly foam with mixture of milk and condensed milk
+
+It takes me usually only 4 minutes to make two cups in the morning. I hope it can make your mornings better as well ☕️👏
 
 ## Latte
 
