@@ -9,7 +9,7 @@ header-img: "img/motiv/coffee.jpg"
 
 ## Morning routine
 
-7 am, and my alarm clock goes on.
+7 am, and my alarm clock goes off.
 
 I don't like alarms; I prefer to wake to up naturally. But today I have to wake up early and can't afford to sleep in.
 
