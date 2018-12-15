@@ -18,6 +18,8 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
+
+                {% assign sorted_by_title = site.pages | sort: 'title' %}
                 {% for page in site.pages %}{% if page.title %}
 				{% if page.url != '/404.html' %}
                 <li>
@@ -25,6 +27,14 @@
                 </li>
 				{% endif %}
                 {% endif %}{% endfor %}
+<!-- "{{ site.baseurl }}/research.html" -->
+<!--
+                <li><a href="/research.html">Research</a></li>
+                <li><a href="/entrepreneurship.html">Entrepreneurship</a></li>
+                <li><a href="/languages.html">Languages</a></li>
+                <li><a href="/miscellaneous.html">Miscellaneous</a></li>
+                <li><a href="/contact.html">Contact</a></li> -->
+                    <!-- <a href="{{ site.baseurl }}/">Home</a> -->
             </ul>
         </div>
         <!-- /.navbar-collapse -->
