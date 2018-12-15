@@ -4,6 +4,7 @@ date: "2015-04-14"
 title: "Must know bash commands or hackers cheat sheet"
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+categories: [Research]
 tags: programming bash Linux terminal
 ---
 

@@ -4,6 +4,7 @@ title:      "Coffee 101. Fast. Tasty. Home-made."
 subtitle:   "Kick-ass latte at home that is better than in a coffee shop"
 date:       2017-11-07
 author:     "Vasilii Triandafilidi"
+categories: [Misc]
 header-img: "img/motiv/coffee.jpg"
 tags: personal recipe
 ---

@@ -4,6 +4,7 @@ date: '2015-04-08 16:31'
 title: 'You have run a simulation, now what? How to visualize your simulation results?'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+categories: [Research]
 tags: research polymer visualization Molecular-Dynamics VMD
 ---
 

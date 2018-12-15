@@ -3,6 +3,7 @@ layout: post
 date: '2015-04-20 16:31'
 title: 'Analysis of MD trajectories. How to calculate static structure factor?'
 author: "Vasilii Triandafilidi"
+categories: [Research]
 header-img: "img/prog/coding.jpg"
 ---
 

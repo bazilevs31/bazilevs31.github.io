@@ -4,6 +4,7 @@ date: '2015-04-05 16:31'
 title: 'How to create a polymer melt?'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+categories: [Research]
 tags: research polymer simulation Molecular-Dynamics
 ---
 

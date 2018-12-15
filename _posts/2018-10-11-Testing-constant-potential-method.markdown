@@ -5,6 +5,7 @@ subtitle:   "Using constant potential method to study electric double layers"
 date:       2018-10-11
 author:     "Vasilii Triandafilidi"
 tags: [research, programming]
+categories: [Research]
 header-img: "img/eng/auto_gears.jpg"
 ---
 

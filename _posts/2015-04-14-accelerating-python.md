@@ -4,6 +4,7 @@ date: '2015-04-14 16:31'
 title: 'How to make your Python code faster'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+categories: [Research]
 tags: programming python Linux terminal
 ---
 

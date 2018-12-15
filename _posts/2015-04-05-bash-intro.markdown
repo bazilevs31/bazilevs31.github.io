@@ -4,10 +4,13 @@ date: '2015-04-05 16:31'
 title: 'How to work with bash terminal or introduction to hacking'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
-tags: research terminal Linux programming bash
+categories: [Research]
+tags: [SCFT, Numerical Accuracy, Numerical Efficiency]
 ---
 
 ## How to work in Unix Bash?
+
+tags: research terminal Linux programming bash
 
   Imagine you have 10 files with two columns of data in each file. You want to load them and take an average of all second columns. Sounds like an easy Excell program! But it is not! When you have not 10 but 10 000 files, it will take ages for Excell to load them. Also, Excell is not free and is not installed everywhere. Fortunately, there is a fantastic tool that you may use: Bash shell. It is available by default in Linux/Mac OS, it can be installed via Cygwin on Windows machine. It takes a couple of hours to learn, a couple of days/weeks to master, and it will save you couple of years in future. Interested? So let's get started.
 

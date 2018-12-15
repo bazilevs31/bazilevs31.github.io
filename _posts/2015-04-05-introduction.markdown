@@ -4,6 +4,7 @@ date: '2015-04-05 16:31'
 title: 'Why do I write this blog?'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+categories: [Research]
 tags: personal research
 ---
 

@@ -5,6 +5,7 @@ subtitle:   "Creating complex shapes for Lammps"
 date:       2018-10-12
 author:     "Vasilii Triandafilidi"
 header-img: "img/eng/auto_gears.jpg"
+categories: [Research]
 tags: [research, programming]
 ---
 

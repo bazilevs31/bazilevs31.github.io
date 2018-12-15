@@ -6,6 +6,7 @@ subtitle: 'Molecular Dynamics lunch box. How to install software on your
     machine?'
 author: "Vasilii Triandafilidi"
 header-img: "img/prog/coding.jpg"
+categories: [Research]
 tags: software programming Lammps MDAnalysis programming VMD
 ---
 

@@ -4,6 +4,7 @@ title:      "Hacking language learning skills"
 subtitle:   "How to learn to read in a foreign alphabet in 30 minutes?"
 date:       2017-11-03
 author:     "Vasilii Triandafilidi"
+categories: [Languages]
 header-img: "img/lang/lang_blackboard.jpg"
 ---
 
